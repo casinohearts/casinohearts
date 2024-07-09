@@ -24,16 +24,13 @@
     padding-top: 16px;
   }
 
-  a {
+  #home-banner a {
     color: #999999;
     text-decoration: none;
   }
   
-  a:hover {
+  #home-banner a:hover {
     color: blue;
-    text-decoration: underline;
-    text-transform: uppercase;
-    font-weight: bold;
   }
 
   h1 {
@@ -63,6 +60,7 @@
     margin-top: 16px;
   }
   
+  
   #home-banner img {
     border: 9px;
     border-style: solid;
@@ -70,6 +68,14 @@
     width: 860px;
     max-width: 90%;
     margin: 34px auto 0px auto;
+  }
+  
+  #home-nav img {
+    width: 122px;
+    height: 117px; 
+    max-width: 100%;
+    border: none;
+    margin: 16px auto;
   }
 
   @media (max-width: 980px) {
